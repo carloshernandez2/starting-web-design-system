@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Langar&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsla(30, 100%, 95%, 1);
+}
+
+main{
+    position: relative;
+    top: 5rem;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+nav{
+    background-color: hsla(260, 100%, 50%, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    text-align: right;
+    margin-right: 4rem;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    text-align: right;
+    font-family: 'Libre Baskerville', serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+section{
+    border: 50px solid transparent;
+    border-image: url("./images/leafy-2031234_1280.png") 150 150 round;
+    position: relative;
+    top: 2rem;
+}
+
+section h2{
+
+    width: fit-content;
+    margin: 5rem auto;
+    font-family: 'Langar', cursive;
+}
+
+section div{
+    margin: 3rem 2rem;
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+section div.color1{
+    background-color: hsla(260, 100%, 50%, 0.5);
+}
+
+section div.color2{
+    background-color: hsla(30, 100%, 95%, 1);
+}
+
+section div.color3{
+    background-color: hsla(60, 50%, 50%, 0.5);
+}
+
+section div.color4{
+    background-color: hsla(90, 100%, 20%, 1);
+}
+
+section div h3{
+    position: relative;
+    top: 4rem;
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Langar', cursive;
+}
+
+section div p{
+    position: relative;
+    top: 6rem;
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.type1{
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.type2{
+    font-family: 'Langar', cursive;
+}
+
+.multiparagraph{
+    position: absolute;
+}
